@@ -12,13 +12,34 @@
 </head>
 <body>
   
-<div class="container">
-  
+<div class="container mt-5">
+  <button id="button" class="btn btn-primary">Click Me!</button>
 </div>
 
-<footer>
-	
-</footer>
+
+
+
+<script>
+	// página carregada
+	$(document).ready(function() {
+
+		// botão clicado
+		$("#button").click(function() {
+
+
+
+			
+		});
+
+
+
+
+	});
+</script>
+
+
+
+
 
 </body>
 </html>
