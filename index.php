@@ -15,36 +15,22 @@
 <div class="container mt-5">
   <button id="button" class="btn btn-primary">Click Me!</button>
 
-  <div id="output">Some content</div>
+  
+
+  <?php 
+  
+    include 'content_ajax.php';  
+
+    include 'data_ajax.php';    	
+  
+  ?>
+
+
+
 </div>
 
 
 
-
-<script>
-	// página carregada
-	$(document).ready(function() {
-
-		// botão clicado
-		$("#button").click(function() {
-
-			// mudando saída
-			// $("#output").html("Button working");
-
-			// iniciar ajax aqui
-			$("#output").load("content.php");
-			
-		});
-
-		// Atualizar a cada 3 décimos de segundo
-		setInterval(function () {
-			$("#output").load("content.php");
-		}, 300);
-
-
-
-	});
-</script>
 
 
 
