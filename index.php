@@ -15,6 +15,8 @@
 <div class="container mt-5">
   <button id="button" class="btn btn-primary">Click Me!</button>
 
+  <button id="btn-json" class="btn btn-success">Click to json!</button>
+
   
 
   <?php 
@@ -22,6 +24,8 @@
     include 'content_ajax.php';  
 
     include 'data_ajax.php';    	
+
+    include 'json_ajax.php';      
   
   ?>
 
