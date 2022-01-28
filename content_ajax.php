@@ -20,6 +20,7 @@
 				}
 				console.log(statusText);
 				console.log(xhr);
+				$("#output").html(responseText);
 			});
 
 			// iniciar ajax aqui com método load()
@@ -37,9 +38,9 @@
 		});
 
 		// Atualizar a cada 3 décimos de segundo
-		setInterval(function () {
-			$("#data").load("data.php");
-		}, 1000);
+		// setInterval(function () {
+		// 	$("#data").load("data.php");
+		// }, 1000);
 
 
 	});
