@@ -12,8 +12,8 @@
 			// mudando saída
 			// $("#output").html("Button working");
 
-			// iniciar ajax aqui
-			$("#output").load("content.phpp", function(responseText, statusText, xhr) {
+			// usando ajax com método get()
+			$.get("content.php", function(responseText, statusText, xhr) {
 				console.log(responseText);
 				if (statusText == "error") {
 					$("#output").html("NOT FOUND");
@@ -21,6 +21,18 @@
 				console.log(statusText);
 				console.log(xhr);
 			});
+
+			// iniciar ajax aqui com método load()
+			/*
+			$("#output").load("content.php", function(responseText, statusText, xhr) {
+				console.log(responseText);
+				if (statusText == "error") {
+					$("#output").html("NOT FOUND");
+				}
+				console.log(statusText);
+				console.log(xhr);
+			});
+			*/
 			
 		});
 
