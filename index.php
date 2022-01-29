@@ -25,7 +25,9 @@
 
     include 'data_ajax.php';    	
 
-    include 'json_ajax.php';      
+    include 'json_ajax.php';  
+
+    include 'posting_data.php';      
   
   ?>
 
