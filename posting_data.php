@@ -22,8 +22,6 @@
 				$('#pessoa').html(responseText);
 			});
 
-
-
 		});
 
 	});

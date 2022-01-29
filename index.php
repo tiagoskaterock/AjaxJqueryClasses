@@ -27,7 +27,11 @@
 
     include 'json_ajax.php';  
 
-    include 'posting_data.php';      
+    include 'json_ajax2.php';  
+
+    include 'posting_data.php'; 
+
+    include 'ajax.php';      
   
   ?>
 
