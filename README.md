@@ -1,0 +1,1 @@
+![Imagem do projeto com fotos de pessoas e dados buscados em json](img/1.png)
