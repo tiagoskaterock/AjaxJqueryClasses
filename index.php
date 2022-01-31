@@ -32,6 +32,8 @@
     include 'posting_data.php'; 
 
     include 'ajax.php';      
+
+    include 'database.php';      
   
   ?>
 
